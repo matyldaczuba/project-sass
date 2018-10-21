@@ -1,0 +1,24 @@
+body {
+  background: turquoise; }
+
+nav {
+  background: yellow; }
+  nav ul {
+    background: yellow; }
+    nav ul li {
+      color: cornflowerblue; }
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: black;
+  color: white;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background: blue; }
