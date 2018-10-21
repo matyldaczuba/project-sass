@@ -10,7 +10,6 @@
 
     h1,
     h3 {
-        color: $white;
         display: inline;
     }
 
@@ -24,7 +23,8 @@
             font-size: 2.5rem;
             color: $yellow;
         }
-        h1{
+
+        h1 {
             font-weight: bolder;
         }
 
@@ -34,21 +34,18 @@
 
     .contact {
 
-        color: $white;
         width: 50%;
 
         .contact-left {
-            padding-right: 0!important;
+            padding-right: 0 !important;
 
             i {
+                @include reverse-btn;
                 font-size: 1.5rem;
                 padding-top: 10px;
-                -webkit-transform: rotateY(180deg);
-                -moz-transform: rotateY(180deg);
-                -o-transform: rotateY(180deg);
-                -ms-transform: rotateY(180deg);
-                unicode-bidi: bidi-override;
-                direction: rtl;
+
+
+
             }
 
         }
@@ -59,8 +56,6 @@
                 @include zero-pad-marg;
                 font-size: 0.8rem;
             }
-
-            h5 {}
 
 
         }

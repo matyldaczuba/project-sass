@@ -1,0 +1,13 @@
+@import "zmienne";
+@import "mixins";
+
+body{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: top;
+    font-family: $font;
+}
+
+.row {
+    @include width100;
+}

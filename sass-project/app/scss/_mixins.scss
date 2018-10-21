@@ -5,6 +5,29 @@
     margin: 0;
 }
 
-@mixin width100{
+@mixin width100 {
     width: 100%;
+}
+
+@mixin form-pos {
+    width: 40%;
+//    margin-right: 10%;
+    margin-bottom: 5px;
+}
+
+@mixin btn{
+    background: $yellow;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 0;
+}
+
+@mixin reverse-btn{
+                padding-top: 10px;
+                -webkit-transform: rotateY(180deg);
+                -moz-transform: rotateY(180deg);
+                -o-transform: rotateY(180deg);
+                -ms-transform: rotateY(180deg);
+                unicode-bidi: bidi-override;
+                direction: rtl;
 }
