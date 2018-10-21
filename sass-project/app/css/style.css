@@ -1,24 +1,40 @@
-body {
-  background: turquoise; }
+.main-header {
+  width: 100%;
+  padding: 20px; }
+  .main-header h1,
+  .main-header h3 {
+    color: #fff;
+    display: inline; }
+  .main-header .logo {
+    width: 100%;
+    height: 100%; }
+    .main-header .logo i {
+      font-size: 3rem;
+      color: #ecd407; }
+  .main-header .contact {
+    color: #fff;
+    width: 50%; }
+    .main-header .contact .contact-left i {
+      font-size: 2.5rem;
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      unicode-bidi: bidi-override;
+      direction: rtl; }
+    .main-header .contact .contact-right p {
+      padding: 0;
+      margin: 0;
+      font-size: 0.8rem; }
 
-nav {
-  background: yellow; }
-  nav ul {
-    background: yellow; }
-    nav ul li {
-      color: cornflowerblue; }
+.row {
+  width: 100%; }
 
-.square {
-  width: 200px;
-  height: 200px;
-  background: black;
-  color: white;
-  position: relative;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  background: blue; }
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  font-family: Open Sans; }

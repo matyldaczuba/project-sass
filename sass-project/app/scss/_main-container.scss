@@ -1,0 +1,16 @@
+@import "zmienne";
+@import "mixins";
+
+.row{
+    @include width100;
+
+}
+
+.container-fluid{
+    @include zero-pad-marg;
+    @include width100;
+    height: 100vh;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    font-family: $font;
+}
