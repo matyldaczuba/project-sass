@@ -1,9 +1,23 @@
 @import "zmienne";
 @import "mixins";
 
-footer{
-    
+
+footer {
+
     padding: 30px;
     background: $gray;
     
+    .foot-row{
+        
+        padding-bottom: 15px;
+        
+    }
+
+    a {
+        @include btn;
+        @include yellow-bg;
+        padding-bottom: 25px;
+
+    }
+
 }

@@ -9,21 +9,25 @@
     width: 100%;
 }
 
+@mixin  yellow-bg{
+    background: $yellow;
+    color: black;
+}
+
 @mixin form-pos {
-    width: 40%;
+    width: 100%;
 //    margin-right: 10%;
     margin-bottom: 5px;
 }
 
 @mixin btn{
-    background: $yellow;
+    font-size: 1.5rem;
     font-weight: bolder;
     padding: 15px;
     border-radius: 0;
 }
 
 @mixin reverse-btn{
-                padding-top: 10px;
                 -webkit-transform: rotateY(180deg);
                 -moz-transform: rotateY(180deg);
                 -o-transform: rotateY(180deg);

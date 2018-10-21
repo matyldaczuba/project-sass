@@ -7,6 +7,14 @@ body {
 .row {
   width: 100%; }
 
+.fa-phone {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
 .main-container {
   padding: 0;
   margin: 0;
@@ -33,14 +41,10 @@ body {
     .main-header .contact .contact-left {
       padding-right: 0 !important; }
       .main-header .contact .contact-left i {
-        padding-top: 10px;
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        unicode-bidi: bidi-override;
-        direction: rtl;
         font-size: 1.5rem;
+        font-weight: bolder;
+        padding: 15px;
+        border-radius: 0;
         padding-top: 10px; }
     .main-header .contact .contact-right p {
       padding: 0;
@@ -48,24 +52,37 @@ body {
       font-size: 0.8rem; }
 
 .form-section {
-  width: 100%;
   padding: 5% 10%; }
   .form-section header {
-    width: 40%;
+    width: 100%;
     margin-bottom: 5px; }
     .form-section header span {
       color: #ecd407; }
   .form-section .main-form {
-    width: 40%;
+    width: 100%;
     margin-bottom: 5px;
     background: #001d8a;
     padding: 15px; }
     .form-section .main-form button {
-      background: #ecd407;
+      font-size: 1.5rem;
       font-weight: bolder;
       padding: 15px;
-      border-radius: 0; }
+      border-radius: 0;
+      background: #ecd407;
+      color: black; }
+      .form-section .main-form button:hover {
+        opacity: 0.9; }
 
 footer {
   padding: 30px;
   background: #292929; }
+  footer .foot-row {
+    padding-bottom: 15px; }
+  footer a {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 0;
+    background: #ecd407;
+    color: black;
+    padding-bottom: 25px; }

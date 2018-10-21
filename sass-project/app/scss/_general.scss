@@ -1,7 +1,7 @@
 @import "zmienne";
 @import "mixins";
 
-body{
+body {
     background-image: url(../img/background.png);
     background-size: cover;
     background-position: top;
@@ -11,3 +11,9 @@ body{
 .row {
     @include width100;
 }
+
+.fa-phone {
+    @include reverse-btn;
+}
+
+

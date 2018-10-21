@@ -2,7 +2,7 @@
 @import "mixins";
 
 .form-section {
-    width: 100%;
+//    width: 50%;
     padding: 5% 10%;
 
     //    height: 300px;
@@ -27,6 +27,11 @@
         button {
 
             @include btn;
+            @include yellow-bg;
+            
+            &:hover{
+                opacity: 0.9;
+            }
 
         }
 
