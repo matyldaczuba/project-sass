@@ -21,8 +21,11 @@
         //        background: aqua;
 
         i {
-            font-size: 3rem;
+            font-size: 2.5rem;
             color: $yellow;
+        }
+        h1{
+            font-weight: bolder;
         }
 
 
@@ -35,9 +38,11 @@
         width: 50%;
 
         .contact-left {
+            padding-right: 0!important;
 
             i {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
+                padding-top: 10px;
                 -webkit-transform: rotateY(180deg);
                 -moz-transform: rotateY(180deg);
                 -o-transform: rotateY(180deg);

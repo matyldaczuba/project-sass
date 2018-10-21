@@ -1,2 +1,17 @@
 @import "zmienne";
 @import "mixins";
+
+.form-section {
+    width: 100%;
+    height: 300px;
+    //    height: auto;
+
+    .main-form {
+        width: 30%;
+        margin-right: 10%;
+        background: $blue;
+        padding: 15px;
+
+    }
+
+}
